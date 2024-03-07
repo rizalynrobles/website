@@ -1,0 +1,465 @@
+
+@import url('https://fonts.cdnfonts.com/css/stora');
+
+
+body {
+    background-color: #C97BB1;
+    font-family: 'Stora', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.nav-bar {
+    width: 120px;
+    height: 100vh;
+    background-color: #FBE04B;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.bar-1, .bar-2, .bar-3 {
+    width: 50%;
+    height: 6px;
+    background-color: #333;
+    position: absolute;
+    border-radius: 55px;
+}
+
+.bar-1 {
+    top: 50px;
+    left: 25px;
+}
+
+.bar-2 {
+    top: 65px;
+    left: 25px;
+}
+
+.bar-3 {
+    top: 80px;
+    left: 25px;
+}
+
+
+.text2, .text1 {
+    position: absolute;
+    left: 0;
+    font-size: 70px;
+    transform-origin: top left;
+    background-color: transparent;
+    transform: rotate(-90deg) translate(-100%);
+}
+
+.text2 {
+    top: 14vh;
+}
+
+.text1 {
+    top: 50vh;
+    color: #C97BB1;
+}
+
+
+.bi.bi-person-circle{
+    color: black;
+    font-size: 40px;
+    background-color: transparent;
+    position: absolute;
+    left: 1.0cm;
+    top: 85vh;
+}
+
+
+
+.Promotion1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.Promotion1 img {
+    width: 200vw;
+    height: 104vh;
+    object-fit: cover;
+    margin-left: 120px;
+    transition: opacity 0.5s ease;
+}
+
+
+.Promotion-text {
+    position: absolute;
+    font-size: 50px;
+    bottom: 0;
+    right: 0;
+    color: black;
+    padding: 10px;
+}
+
+.highlight {
+    color: #C97BB1;
+}
+
+
+.Btn {
+    height: 35px;
+    background-color: #FBE04B;
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+}
+
+.Btn-about{
+    height: 35px;
+    background-color: #FBE04B;
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    left: 35%;
+    top: 6rem;
+}
+
+.Btn-about h1{
+    font-size: 20px;
+}
+
+.Btn p {
+    margin: 0;
+    font-size: 30px;
+}
+
+.About.us p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Slabo';
+}
+
+.loc{
+    top: 3rem;
+    position: relative;
+    font-family: 'Slabo';
+}
+
+.Container {
+    background-color: #D3924D;
+    padding: 20px;
+    border: 5px solid black;
+    border-radius: 30px;
+    width: 25%;
+    height: 44%;
+    position: absolute;
+    left: 20%;
+    top: 140vh;
+    transform: translateY(-50%);
+}
+
+.Container h2 {
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+.Promotion2 img{
+    border-radius: 5px solid black;
+    border-radius: 10px;
+    width: 25%;
+    height: 50%;
+    position: absolute;
+    left: 60%;
+    top: 140vh;
+    transform: translateY(-50%);
+}
+
+.Product-count{
+    background-color: #B1BE48;
+    font-size: 30px;
+    padding: 20px;
+    border: 5px solid black;
+    border-radius: 30px;
+    width: 63%;
+    height: 3%;
+    position: absolute;
+    left: 20%;
+    top: 175vh;
+    transform: translateY(-50%);
+}
+
+.Product-count p{
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+.Promotion3 img{
+    border: 5px solid black;
+    border-radius: 30px;
+    width: 25%;
+    height: 44%;
+    position: absolute;
+    left: 20%;
+    top: 215vh;
+    transform: translateY(-50%);
+}
+
+.Promotion4 img{
+    border: 5px solid black;
+    border-radius: 30px;
+    width: 25%;
+    height: 44%;
+    position: absolute;
+    left: 20%;
+    top: 270vh;
+    transform: translateY(-50%);
+}
+
+.Divider{
+    height: 40%;
+    width: 10px;
+    background-color: yellow;
+    border: none;
+    border-top: 2px solid yellow;
+    margin-left: 50%;
+    position: absolute;
+    top: 196vh;
+}
+
+.Divider2{
+    height: 40%;
+    width: 10px;
+    background-color: yellow;
+    border: none;
+    border-top: 2px solid yellow;
+    margin-left: 50%;
+    position: absolute;
+    top: 251vh;
+}
+
+.Promotion3-text h2 {
+    position: absolute;
+    font-size: 40px;
+    bottom: -15cm;
+    left: 60%;
+    top: 190vh;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.Promotion3-text p{
+    position: absolute;
+    font-size: 40px;
+    font-family: 'Slabo';
+    bottom: -28cm;
+    right: 0;
+    left: 45%;
+    top: 202vh;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.Promotion4-text h2{
+    position: absolute;
+    font-size: 40px;
+    bottom: 5%;
+    left: 60%;
+    top: 245vh;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.Promotion4-text p{
+    position: absolute;
+    font-size: 40px;
+    font-family: 'Slabo';
+    bottom: -190%;
+    right: 0;
+    left: 45%;
+    top: 257vh;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.Trends{
+    background-color: #E5B8A9;
+    padding: 20px;
+    border: 5px solid black;
+    width: 88.8%;
+    height: 100%;
+    position: absolute;
+    left: 8%;
+    top: 360vh;
+    transform: translateY(-50%);
+}
+
+.trends{
+    font-size: 50px;
+    width: 63%;
+    height: 3%;
+    position: absolute;
+    left: 20%;
+    top: 20vh;
+    text-align: center;
+}
+
+.trends-text{
+    font-size: 30px;
+    font-family: 'Slabo';
+    width: 63%;
+    height: 3%;
+    position: absolute;
+    left: 20%;
+    top: 40vh;
+    text-align: center;
+}
+
+.Trend-container{
+    background-color: white;
+    padding: 20px;
+    border: 5px solid black;
+    border-radius: 90px;
+    width: 80%;
+    height: 8%;
+    position: absolute;
+    left: 8%;
+    top: 70vh;
+    transform: translateY(-50%);
+}
+
+.trend-btn{
+    height: 35px;
+    background-color: #FBE04B;
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    left: 43%;
+    top: 80vh;
+}
+
+.trend-btn h1{
+    margin: 0;
+    font-size: 30px;
+}
+
+.Influencer{
+    font-size: 20px;
+    color: white;
+    width: 63%;
+    height: 3%;
+    position: absolute;
+    left: 25%;
+    top: 420vh;
+    text-align: center;
+}
+
+.Influencer-photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Influencer-photo {
+    flex: 0 0 25%;
+    margin: 10px;
+    overflow: hidden;
+    border: 5px solid black;
+    border-radius: 30px;
+}
+
+.Influencer-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.vos{
+    font-size: 40px;
+    color: white;
+    width: 63%;
+    height: 3%;
+    position: absolute;
+    left: 24%;
+    top: 510vh;
+    text-align: center;
+}
+
+.f-container{
+    background-color: #221A17;
+    padding: 20px;
+    width: 88.8%;
+    height: 60%;
+    position: absolute;
+    left: 8%;
+    top: 580vh;
+    transform: translateY(-50%);
+    color: white;
+}
+
+.f-container h3{
+    color: white;
+    font-family: 'Slabo';
+}
+
+.acc{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 45%;
+    top: 563vh;
+    transform: translateY(-50%);
+    color: white;
+}
+
+.acc h3{
+    color: white;
+    font-family: 'Slabo';
+    margin-top: 10px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 80%;
+    top: 566vh;
+    transform: translateY(-50%);
+    color: white;
+}
+
+.info p{
+    color: white;
+    font-family: 'Slabo';
+}
+
+.footer{
+    display: flex;
+    font-size: 60px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 40%;
+    top: 585vh;
+    transform: translateY(-50%);
+    color: white;
+}
+
+.Icons {
+    position: absolute;
+    left: 40%;
+    top: 600vh;
+}
+
+.Icons img{
+    margin-right: 60px;
+}
